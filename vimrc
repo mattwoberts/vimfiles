@@ -253,7 +253,7 @@ if has("gui_running")
         set term=gnome-256color
         colorscheme desert
     else
-        colorscheme railscasts
+        colorscheme molokai
         set guitablabel=%M%t
         set lines=40
         set columns=115
@@ -460,4 +460,7 @@ cnoremap <C-F4> <C-C><C-W>c
 :imap <C-tab> <Esc>:tabnext<CR>i
 :nmap <C-t> :tabnew<CR>
 :imap <C-t> <Esc>:tabnew<CR>
+
+set cursorline
+set ignorecase
 
